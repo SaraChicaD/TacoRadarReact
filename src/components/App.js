@@ -1,34 +1,27 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import Main from './Main';
+import Body from './Body';
 
 export default class App extends Component {
 
 componentDidMount() {
 
-	//If brower supports HTML5 geoLocation
-	if (navigator.geolocation) {
-	  navigator.geolocation.getCurrentPosition(function(position) { 
-	    const lat = position.coords.latitude;
-	    const lng = position.coords.longitude;
+	navigator.geolocation.getCurrentPosition((position) => { 
+	  var lat = position.coords.latitude;
+	  var lng = position.coords.longitude;
 
-	    console.log('run');
+	  //this works
+	  console.log(lat, lng);
 
-	  });
-	    
-	}
-	else {
-	  alert('This Browser doesn\'t support HTML5 geolocation');
-	}
-
+	});
 }
 
 render() {
     return (
 	  <div>
 	  	<Header />
-      	<Main />
+      	<Body />
       	<Footer />
       </div>
     );
