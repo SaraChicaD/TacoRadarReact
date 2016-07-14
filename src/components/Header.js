@@ -8,7 +8,7 @@ export default class Header extends React.Component {
     let brand = <a href='#'>Taco Radar</a>;
     return (
     	<Grid>
-	      <Navbar brand={brand} fixedTop inverse>
+	      <Navbar brand={brand} inverse>
 	        <Nav>
 	        </Nav>
 	      </Navbar>
