@@ -1,0 +1,31 @@
+.nav {
+	background-color: #e50000 !important;
+}
+
+.navbar-inverse {
+    background-color: #e50000 !important;
+    border-color: #e50000 !important;
+    background-image: none !important;
+}
+
+body {
+	background: #fbfbf1 !important;
+	background-color: #fbfbf1 !important;
+}
+
+button  {
+	background-color: #e50000 !important;
+	background: #e50000 !important;
+	border-radius: 8px !important;
+}
+
+.centered {
+	margin: 0 auto !important;
+}
+
+.header {
+	border-radius: 4px;
+	margin: 15px;
+	padding: 15px;
+	background-color: red !important;
+}

@@ -6,10 +6,12 @@ export default class Footer extends React.Component {
     return (
       <Grid>
         <hr />
-        <footer className="taco-footer">
+        <br />
+        <footer>
           <p>Taco Radar 2016</p>
         </footer>
       </Grid>
     );
   }
 }
+

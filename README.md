@@ -5,4 +5,5 @@ To run project, make sure you install `webpack -g`.
 
 To run `webpack` and then to start the server, `node server.js`.
 
+Navigate to `http://localhost:3000/`.
 
