@@ -141,12 +141,13 @@ example:
         "address3": ""
       }
     }, ...
-    ```
+```
+
 
 #### Error Handling
 Error handling for the Yelp API integration utilizes Yelp API's error handling. This app will pass along the error status from Yelp to it's response status, as well as the error data.
 
-````javascript
+```javascript
 {
 	"status":400,
 	"data":{
@@ -154,9 +155,10 @@ Error handling for the Yelp API integration utilizes Yelp API's error handling. 
 	}
 }
 
-````
+```
 
-Custom error handling handles for when a valid Yelp token is not available. 
-````javascript
+Custom error handling handles for when a valid Yelp token is not available.
+
+```javascript
 {"status":"503","data":"There's a problem with the service right now. Please try again later."}
-````
+```
