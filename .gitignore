@@ -38,3 +38,6 @@ dist/bundle.js
 dist/bundle.min.js
 # ds
 .DS_Store
+
+# env var 
+env.json
