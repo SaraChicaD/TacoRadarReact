@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Taco Radar",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js --ignore dist/",
+    "dev": "webpack-dev-server --content-base dist --inline --hot",
+    "prod": "webpack -p",
     "lint": "eslint src"
   },
   "repository": {
@@ -28,6 +30,7 @@
   },
   "homepage": "https://github.com/SaraChicaD/TacoRadarReact",
   "devDependencies": {
+    "axios": "^0.13.1",
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
     "babel-loader": "^6.0.1",
@@ -42,11 +45,16 @@
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
+    "axios": "^0.13.1",
+    "body-parser": "^1.15.2",
+    "errorhandler": "^1.4.3",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "react-redux": "^4.4.5",
     "react-router": "^2.4.1",
     "redux": "^3.5.2",
-    "redux-promise": "^0.5.3"
+    "redux-promise": "^0.5.3",
+    "request": "^2.74.0",
+    "webpack-dev-middleware": "^1.6.1"
   }
 }
