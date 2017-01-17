@@ -1,8 +1,15 @@
-import React from 'react';
-import Button from 'react-bootstrap/lib/Button';
-import Grid from 'react-bootstrap/lib/Grid';
-import Jumbotron from 'react-bootstrap/lib/Jumbotron';
-import Row from 'react-bootstrap/lib/Row';
-import Col from 'react-bootstrap/lib/Col';
+import React, { Component } from 'react';
 
-//this is where the results we generate will go
+export default class List extends React.Component {
+  render() {
+    return (
+    	<div>
+	      <ul>
+    	    <li>Item 1</li>
+    	    <li>Item 2</li>
+    	    <li>...</li>
+	      </ul>
+    	</div>
+    );
+  }li
+}

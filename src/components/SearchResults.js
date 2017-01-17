@@ -1,18 +1,15 @@
-import React from 'react';
-import ListGroup from 'react-bootstrap/lib/ListGroup';
-import ListGroupItem from 'react-bootstrap/lib/ListGroupItem';
-import Grid from 'react-bootstrap/lib/Grid';
+import React, { Component } from 'react';
 
 export default class SearchResults extends React.Component {
   render() {
     return (
-    	<Grid>
-	      <ListGroup>
-    	    <ListGroupItem>Item 1</ListGroupItem>
-    	    <ListGroupItem>Item 2</ListGroupItem>
-    	    <ListGroupItem>...</ListGroupItem>
-	      </ListGroup>
-    	</Grid>
+    	<div>
+	      <ul>
+    	    <li>Item 1</li>
+    	    <li>Item 2</li>
+    	    <li>...</li>
+	      </ul>
+    	</div>
     );
-  }
+  }li
 }
