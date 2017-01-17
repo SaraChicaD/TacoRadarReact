@@ -1,9 +1,28 @@
-.navbar-inverse {
-    background-color: #222;
-    border-color: #080808;
+body {
+	background: #F2F1ED;
+	padding: 0;
+	margin: 0;
+	color: black;
 }
 
-.nav {
-	background-color: red;
-	border-color: red;
+.taco-header {
+	background: #DE5A51;
 }
+
+.taco-button {
+	background: #DE5A51;
+}
+
+.taco-home {
+
+}
+
+.taco-results {
+
+}
+
+.taco-footer {
+	background: #dea151;
+}
+
+//TODO responsive

@@ -1,5 +1,5 @@
 # TacoRadarReact
-A React/Redux mobile web app utilizing geolocation and the Yelp API to help you find the best taco nearest you!
+A React/Redux mobile web app utilizing geolocation and the Yelp API to help you find the best taco nearest you! Taco Radar is a collaboration between folks who met in Austin but are from all over the place: [Connie Yu](https://www.linkedin.com/in/connieyuinaustin), [Diana Ying](https://www.linkedin.com/in/dianajying) & [Sara Inés Calderón](https://twitter.com/SaraChicaD).
 
 ## Required dependencies
 - Install globally: `npm install webpack -g`
