@@ -9,6 +9,10 @@ body {
 	background: #DE5A51;
 }
 
+.taco-header > h1 {
+	background: #DE5A51;
+}
+
 .taco-button {
 	background: #DE5A51;
 }

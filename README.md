@@ -11,11 +11,13 @@ A React/Redux mobile web app utilizing geolocation and the Yelp API to help you 
 ## To run the app
 
 ### To run overall app for both front-end and back-end. This will start nodemon watch and you just need to refresh browser to reflect any changes for both front-end and back-end.
+
 Listening at http://localhost:3000/
 
 `npm start` 
 
 ### For front-end development, if you want to utilize web-pack-dev-server's hot reload and let the browser automatically reflect all your front-end changes real time
+
 Listening at http://localhost:8080/
 
 `npm run dev`
